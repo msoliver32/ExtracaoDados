@@ -11,7 +11,7 @@ import com.gargoylesoftware.htmlunit.html.HtmlPage;
 
 import model.NCM;
 
-public class TestHtmlUnit {
+public class HtmlUnit {
 
 	private ArrayList<HtmlElement> listElements = new ArrayList<HtmlElement>();
 
@@ -19,8 +19,8 @@ public class TestHtmlUnit {
 
 	private final WebClient webClient = new WebClient();
 
-	@Test
-	public void PaginaIncial() {
+	
+	public void paginaIncial() {
 
 		try {
 
